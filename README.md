@@ -1,11 +1,11 @@
 # dynamite
-A setup script and other stuff for getting a Void Linux machine working for me (and maybe you)
+A setup script and other stuff for getting a Linux machine working for me (and maybe you)
 (It uses the projects I've appended with "k".)
 
 ## usage
 ### requirements
 - git
-- working Void Linux installation (preferably fresh)
+- working Linux (currently must be Void) installation (preferably fresh)
 
 ### run
 ```bash
