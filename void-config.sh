@@ -35,8 +35,13 @@ git clone https://github.com/konfuzhon/slock-k
 cd slock-k
 sudo make clean install
 cd ..
+git clone https://github.com/konfuzhon/slstatus-k
+cd slstatus-k
+sudo make clean install
+cd
 mkdir .wallpapers
 cp dynamite/chinatown.png .wallpapers
 echo "pipewire &" > .xinitrc
+echo "slstatus &" >> .xinitrc
 echo "feh --bg-fill /home/$USER/.wallpapers/chinatown.png" >> .xinitrc
 echo "exec dwm" >> .xinitrc
