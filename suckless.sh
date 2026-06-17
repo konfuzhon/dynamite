@@ -6,7 +6,7 @@ sudo xbps-install base-devel dbus elogind pipewire firefox feh mpv xorg xinit li
 
 # Set up xbps-src
 cd
-git clone https://github.com/void-linux/void-packages.git
+git clone https://github.com/konfuzhon/void-packages.git
 
 # Set up audio
 sudo ln -s /etc/sv/dbus /var/service/
